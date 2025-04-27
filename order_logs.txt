@@ -1,0 +1,12 @@
+Customer: wander (ID: 111)
+- sushi x2 @ 300.0
+Status: Completed
+Total: $600.0
+-------------------------
+Customer: kawander (ID: 122)
+- sashimi x2 @ 40.0
+- soba noodles x4 @ 800.0
+- sake x4 @ 890.0
+Status: Completed
+Total: $6840.0
+-------------------------
