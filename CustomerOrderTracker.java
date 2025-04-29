@@ -2,7 +2,6 @@ import java.io.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
-// Interfaces
 interface Trackable {
     String getStatus();
 }
@@ -11,7 +10,6 @@ interface Refundable {
     void processRefund();
 }
 
-// Customer class
 class Customer {
     private String name;
     private String customerID;
@@ -30,7 +28,6 @@ class Customer {
     }
 }
 
-// OrderItem class
 class OrderItem {
     private String productName;
     private int quantity;
@@ -58,7 +55,6 @@ class OrderItem {
     }
 }
 
-// Order class
 class Order implements Trackable, Refundable {
     private Customer customer;
     private List<OrderItem> items;
@@ -116,7 +112,6 @@ class Order implements Trackable, Refundable {
     }
 }
 
-// OrderManager class
 class OrderManager {
     private List<Order> orders = new ArrayList<>();
 
@@ -162,7 +157,6 @@ class OrderManager {
     }
 }
 
-// Main Class
 public class CustomerOrderTracker {
     private Scanner scanner = new Scanner(System.in);
     private OrderManager orderManager = new OrderManager();
@@ -299,6 +293,6 @@ public class CustomerOrderTracker {
     }
 
     public static void main(String[] args) {
-        new CustomerOrderTracker(); // Constructor starts the app
+        new CustomerOrderTracker();
     }
 }
